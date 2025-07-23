@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Preview my-footer</title>
+  <script type="module">
+    import { register } from './dist/custom-elements.es.js';
+    register();
+  </script>
+</head>
+
+<body>
+  <h1>Preview my-footer</h1>
+  <my-footer title="Custom Footer"></my-footer>
+
+  <script>
+    document.querySelector('my-footer').addEventListener('onTrigger', (e) => {
+      console.log(e.detail);
+      alert(e.detail[0].message);
+    });
+  </script>
+</body>
+
+</html>
