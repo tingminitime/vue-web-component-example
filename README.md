@@ -154,6 +154,8 @@ const emit = defineEmits<{
 - [Vue 3 官方文件](https://vuejs.org/)
 - [Vite 官方文件](https://vitejs.dev/)
 - [Vue 3 Custom Elements](https://vuejs.org/guide/extras/web-components.html)
+- [Alex 宅幹嘛 - [ 老子學不動啦 ] #5 Web Component by Vite & Vue](https://www.youtube.com/live/pN7fC2vb1Ig?si=wtB_Ex-AANdApaRi)
+- [TheCodingPro - 使用 Vue3 開發 Web Component 入門](https://thecodingpro.com/b/0ntAaG33Cs33CstU3nuG)
 
 ## 📄 授權
 
